@@ -17,7 +17,7 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("config-ref: mcr/main", text)
         self.assertIn("config-path: glab-groups-nvidia", text)
         self.assertIn("target-token-secret: GL_PAT_GROUP_NVIDIA_SVC", text)
-        self.assertIn('cron: "5 3,15 * * *"', text)
+        self.assertIn('cron: "5 17 1-31/2 * *"', text)
         self.assertIn("batch-size: 25", text)
 
 

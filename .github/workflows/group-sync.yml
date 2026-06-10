@@ -3,7 +3,7 @@ name: nvidia-group-sync
 
 "on":
   schedule:
-    - cron: "5 3,15 * * *"
+    - cron: "5 17 1-31/2 * *"
   workflow_dispatch:
 
 permissions: {}
